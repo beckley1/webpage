@@ -24,17 +24,22 @@
     box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
     max-width: 23vw;
   }
-    .wrapper {
+     .wrapper {
     background-color: whitesmoke;
     list-style-type: none;
     padding: 0;
     border-radius: 3px;
   }
   .form-row {
+    display: flex;
+    justify-content: flex-end;
     padding: .5em;
   }
   .form-row > label {
     padding: .5em 1em .5em 0;
+  }
+  .form-row > input {
+    flex: 1;
   }
   .form-row > input,
   .form-row > button {
